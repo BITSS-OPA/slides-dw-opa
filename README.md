@@ -1,7 +1,7 @@
-# Computational Social Science Forum 2020 slides
+# Slides for OPA for Deworming. BITSS Annual Meeting 2021
 
-Slides used for the presentation "Accelerating Computational Reproducibility in Economics" at the Computational Social Science Forum, organized by the [Berkeley Institute for Data Science](https://bids.berkeley.edu/research/computational-social-science-forum) at UC Berkeley, October 12th, 2020.  
+Slides used for the presentation "An Open Policy Analysis for Deworming Interventions" at the BITSS Annual Meeting 2021.  
 
-The slides are published in this link: [bitss.github.io/acre-slides-bids/](https://bitss.github.io/ACRE-slides-bids/).   
+The slides are published in this link: [bitss-opa.github.io/slides-dw-opa](https://bitss-opa.github.io/slides-dw-opa/#1).   
 A pdf version of the slides can be found in the file `01_slides.pdf`.  
 To edit the slides used the file `01_slides.Rmd` (you will need R and Rstudio).   
