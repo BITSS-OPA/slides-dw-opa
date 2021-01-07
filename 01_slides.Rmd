@@ -2,10 +2,10 @@
 title: "An Open Policy Analysis for Deworming Interventions"
 subtitle: "BITSS Annual Meeting"
 author: "Fernando Hoces de la Guardia, BITSS"
-date:  "`r format(as.Date('2021-01-07'), '%d %B %Y')` | [slides](https://github.com/BITSS-OPA/slides-dw-opa)"
+date:  "`r format(as.Date('2021-01-07'), '%d %B %Y')` | [slides](https://bitss-opa.github.io/slides-dw-opa/#1)"
 output: 
   xaringan::moon_reader:
-    footer: "These slides available at https://github.com/BITSS-OPA/slides-dw-opa"
+    footer: "These slides available at https://bitss-opa.github.io/slides-dw-opa/#1"
     css: [default, metropolis, metropolis-fonts] 
     lib_dir: libs
     nature:
@@ -449,7 +449,6 @@ Researchers can see clearly where their estimates are being used in a policy ana
 When there is little information for a parameter used in an OPA, a forecasting exercise can be carried out to elicit expert knowledge (DellaVigna, Pope, Vivalt [2019](https://science.sciencemag.org/content/366/6464/428.summary)).
 
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
-pagedown::chrome_print("01_slides.html", 
-                       output = paste0(Sys.Date(), "01_slides.pdf") )
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
+pagedown::chrome_print("index.html", "a01_slides.pdf" )
 ```
