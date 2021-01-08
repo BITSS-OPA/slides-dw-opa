@@ -164,24 +164,29 @@ count: false
  
 ---
 name: motivation
-background-image: url("Images/alternative-facts-crowd.png")
-background-size: 800px
-background-position: 0% 0% 
+background-image: url("Images/alternative-facts-crowd.png"), url("Images/temp.png")
+background-size: 800px, 300px
+background-position: 0% 0%, 80% 10%  
 
 
 
 # Motivation: Rise of Alternative Facts
 
-.pull-right[
+
+<!--
 <br>
 <iframe width="360" height="250" src="https://www.youtube.com/embed/rV_YxKOE90g?start=188" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
 
+
+.pull-right[
+<br><br><br><br><br><br><br><br>
+*Senator [discussing facts]("https://www.youtube.com/embed/rV_YxKOE90g?start=188") on unemployment insurance*
 
 *Interviewer:* “We I have looked at what economist are saying, and [...] there is no measurable evidence that people are staying at home because of [$600 unemp. insurance]” 
 
 *Congressman:* “[scoffs] I don’t know which economist you are talking about, but ...” 
 ]
-
 ---
 
 # Possible Mechanism: Opaqueness of Policy Analysis
